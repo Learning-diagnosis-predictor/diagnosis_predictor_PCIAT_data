@@ -1,0 +1,13 @@
+,Output,Model type,Best estimator,Best score,SD of best score,Number of positive examples,Score - SD
+0,"PCIAT,PCIAT_Total",randomforestclassifier,"Pipeline(steps=[('simpleimputer', SimpleImputer(strategy='median')),
+                ('standardscaler', StandardScaler()),
+                ('randomforestclassifier',
+                 RandomForestClassifier(class_weight='balanced', max_depth=55,
+                                        min_samples_leaf=6, min_samples_split=6,
+                                        n_estimators=200))])",,,43063,
+1,"PreInt_EduHx,recent_grades",randomforestclassifier,"Pipeline(steps=[('simpleimputer', SimpleImputer(strategy='median')),
+                ('standardscaler', StandardScaler()),
+                ('randomforestclassifier',
+                 RandomForestClassifier(max_depth=120, max_features=0.75,
+                                        min_samples_split=25,
+                                        n_estimators=200))])",,,3304,

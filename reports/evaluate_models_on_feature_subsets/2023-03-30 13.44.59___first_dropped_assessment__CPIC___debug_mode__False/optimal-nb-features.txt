@@ -1,0 +1,9 @@
+{
+  "PCIAT,PCIAT_Total": 25,
+  "IAT,IAT_Total": 31,
+  "PreInt_EduHx,recent_grades": 23,
+  "WHODAS_P,WHODAS_P_Total": 97,
+  "WHODAS_SR,WHODAS_SR_Score": 95,
+  "CIS_P,CIS_P_Score": 69,
+  "CIS_SR,CIS_SR_Total": 19
+}

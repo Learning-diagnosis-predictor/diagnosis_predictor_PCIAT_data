@@ -1,0 +1,25 @@
+,Output,Model type,Best estimator,Best score,SD of best score,Number of positive examples,Score - SD
+0,"PCIAT,PCIAT_Total",logisticregression,"Pipeline(steps=[('simpleimputer', SimpleImputer(strategy='median')),
+                ('standardscaler', StandardScaler()),
+                ('logisticregression',
+                 LogisticRegression(C=0.000884610471585803,
+                                    l1_ratio=0.38711183631788804,
+                                    solver='saga'))])",0.5622065727699531,0.01583419901787796,43063,0.5463723737520751
+1,"PreInt_EduHx,recent_grades",logisticregression,"Pipeline(steps=[('simpleimputer', SimpleImputer(strategy='median')),
+                ('standardscaler', StandardScaler()),
+                ('logisticregression',
+                 LogisticRegression(C=0.008493342945457887,
+                                    l1_ratio=0.18955782750805517,
+                                    penalty='elasticnet', solver='saga'))])",0.386150234741784,0.007235227703015221,3304,0.3789150070387688
+2,"CIS_P,CIS_P_Score",logisticregression,"Pipeline(steps=[('simpleimputer', SimpleImputer(strategy='median')),
+                ('standardscaler', StandardScaler()),
+                ('logisticregression',
+                 LogisticRegression(C=0.0037576370166230353,
+                                    l1_ratio=0.42908736764605393,
+                                    solver='saga'))])",0.7687793427230046,0.004391616651143118,16092,0.7643877260718616
+3,"CIS_SR,CIS_SR_Total",logisticregression,"Pipeline(steps=[('simpleimputer', SimpleImputer(strategy='median')),
+                ('standardscaler', StandardScaler()),
+                ('logisticregression',
+                 LogisticRegression(C=0.00037571352535243567,
+                                    l1_ratio=0.088492663982489,
+                                    solver='saga'))])",0.7582159624413145,0.008783233302286236,13806,0.7494327291390283

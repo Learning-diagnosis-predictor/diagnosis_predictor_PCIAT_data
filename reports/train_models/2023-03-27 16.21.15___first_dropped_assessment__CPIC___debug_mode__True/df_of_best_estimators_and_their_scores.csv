@@ -1,0 +1,15 @@
+,Output,Model type,Best estimator,Best score,SD of best score,Number of positive examples,Score - SD
+0,"PCIAT,PCIAT_Total",logisticregression,"Pipeline(steps=[('simpleimputer', SimpleImputer(strategy='median')),
+                ('standardscaler', StandardScaler()),
+                ('logisticregression',
+                 LogisticRegression(C=0.0023906303275383275,
+                                    class_weight='balanced',
+                                    l1_ratio=0.6835562729837477,
+                                    solver='saga'))])",0.4225783934743233,0.03843451636313082,43063,0.38414387711119247
+1,"PreInt_EduHx,recent_grades",logisticregression,"Pipeline(steps=[('simpleimputer', SimpleImputer(strategy='median')),
+                ('standardscaler', StandardScaler()),
+                ('logisticregression',
+                 LogisticRegression(C=0.02153863006191485,
+                                    class_weight='balanced',
+                                    l1_ratio=0.2481520756710237,
+                                    penalty='elasticnet', solver='saga'))])",0.34074049125368727,0.030617727310406097,3304,0.3101227639432812

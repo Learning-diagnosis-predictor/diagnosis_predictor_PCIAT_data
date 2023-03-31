@@ -1,0 +1,36 @@
+,Output,Model type,Best estimator,Best score,SD of best score,Min value,Max value,Score - SD
+0,"PCIAT,PCIAT_Total",elasticnet,"Pipeline(steps=[('simpleimputer', SimpleImputer(strategy='median')),
+                ('standardscaler', StandardScaler()),
+                ('elasticnet',
+                 ElasticNet(alpha=1.5858788315564198,
+                            l1_ratio=0.8346583040295752))])",-12.700553419202118,0.4494640298771556,0.0,93.0,-13.150017449079273
+1,"IAT,IAT_Total",elasticnet,"Pipeline(steps=[('simpleimputer', SimpleImputer(strategy='median')),
+                ('standardscaler', StandardScaler()),
+                ('elasticnet',
+                 ElasticNet(alpha=1.6269712695579228,
+                            l1_ratio=0.6293536169466531))])",-11.784610075993504,0.6375989059546332,0.0,94.0,-12.422208981948136
+2,"PreInt_EduHx,recent_grades",elasticnet,"Pipeline(steps=[('simpleimputer', SimpleImputer(strategy='median')),
+                ('standardscaler', StandardScaler()),
+                ('elasticnet',
+                 ElasticNet(alpha=0.48034639277033825,
+                            l1_ratio=0.09610537194983748))])",-0.7211831665176787,0.032960908252754585,1.0,5.0,-0.7541440747704332
+3,"WHODAS_P,WHODAS_P_Total",elasticnet,"Pipeline(steps=[('simpleimputer', SimpleImputer(strategy='median')),
+                ('standardscaler', StandardScaler()),
+                ('elasticnet',
+                 ElasticNet(alpha=4.086947523200023,
+                            l1_ratio=0.018409062833074086))])",-7.679070882606027,0.3554188171152785,0.0,81.25,-8.034489699721306
+4,"WHODAS_SR,WHODAS_SR_Score",elasticnet,"Pipeline(steps=[('simpleimputer', SimpleImputer(strategy='median')),
+                ('standardscaler', StandardScaler()),
+                ('elasticnet',
+                 ElasticNet(alpha=1.3038503976390143,
+                            l1_ratio=0.3499495171641719))])",-9.575608751755453,0.37379272535290825,0.0,100.0,-9.949401477108362
+5,"CIS_P,CIS_P_Score",elasticnet,"Pipeline(steps=[('simpleimputer', SimpleImputer(strategy='median')),
+                ('standardscaler', StandardScaler()),
+                ('elasticnet',
+                 ElasticNet(alpha=1.9225363246980827,
+                            l1_ratio=0.03751989043142345))])",-3.724143157961748,0.13540925083066999,0.0,49.0,-3.859552408792418
+6,"CIS_SR,CIS_SR_Total",elasticnet,"Pipeline(steps=[('simpleimputer', SimpleImputer(strategy='median')),
+                ('standardscaler', StandardScaler()),
+                ('elasticnet',
+                 ElasticNet(alpha=0.4283968689833914,
+                            l1_ratio=0.9888649012825864))])",-4.955692700025714,0.3517973957785446,0.0,47.0,-5.307490095804258

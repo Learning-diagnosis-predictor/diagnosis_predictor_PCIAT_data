@@ -1,0 +1,29 @@
+,Output,Model type,Best estimator,Best score,SD of best score,Number of positive examples,Score - SD
+0,"PCIAT,PCIAT_Total",logisticregression,"Pipeline(steps=[('simpleimputer', SimpleImputer(strategy='median')),
+                ('standardscaler', StandardScaler()),
+                ('logisticregression',
+                 LogisticRegression(C=0.9511965406121332,
+                                    class_weight='balanced',
+                                    l1_ratio=0.174092256055846, penalty='l1',
+                                    solver='saga'))])",0.395213289520477,0.040475664687157666,43063,0.35473762483331933
+1,"PreInt_EduHx,recent_grades",logisticregression,"Pipeline(steps=[('simpleimputer', SimpleImputer(strategy='median')),
+                ('standardscaler', StandardScaler()),
+                ('logisticregression',
+                 LogisticRegression(C=0.08369839976844108,
+                                    class_weight='balanced',
+                                    l1_ratio=0.2526051893956661, penalty='l1',
+                                    solver='saga'))])",0.3254038788009762,0.0216828737819159,3304,0.3037210050190603
+2,"CIS_P,CIS_P_Score",logisticregression,"Pipeline(steps=[('simpleimputer', SimpleImputer(strategy='median')),
+                ('standardscaler', StandardScaler()),
+                ('logisticregression',
+                 LogisticRegression(C=0.008138924274439716,
+                                    class_weight='balanced',
+                                    l1_ratio=0.5641893500891015,
+                                    penalty='elasticnet', solver='saga'))])",0.6188889839358112,0.026115230003847086,16092,0.5927737539319641
+3,"CIS_SR,CIS_SR_Total",logisticregression,"Pipeline(steps=[('simpleimputer', SimpleImputer(strategy='median')),
+                ('standardscaler', StandardScaler()),
+                ('logisticregression',
+                 LogisticRegression(C=0.0007096616892780796,
+                                    class_weight='balanced',
+                                    l1_ratio=0.7256721493470117,
+                                    solver='saga'))])",0.5276500759472306,0.01790776900765007,13806,0.5097423069395804

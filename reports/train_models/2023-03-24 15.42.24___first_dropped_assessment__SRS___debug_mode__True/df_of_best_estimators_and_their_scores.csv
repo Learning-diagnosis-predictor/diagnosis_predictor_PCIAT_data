@@ -1,0 +1,11 @@
+,Output,Model type,Best estimator,Best score,SD of best score,Number of positive examples,Score - SD
+0,"PCIAT,PCIAT_Total",elasticnet,"Pipeline(steps=[('simpleimputer', SimpleImputer(strategy='median')),
+                ('standardscaler', StandardScaler()),
+                ('elasticnet',
+                 ElasticNet(alpha=0.887899398523083,
+                            l1_ratio=0.9830077517777556))])",0.31941278123509514,0.02316674234712678,72416,0.29624603888796835
+1,"PreInt_EduHx,recent_grades",elasticnet,"Pipeline(steps=[('simpleimputer', SimpleImputer(strategy='median')),
+                ('standardscaler', StandardScaler()),
+                ('elasticnet',
+                 ElasticNet(alpha=0.07349218325151105,
+                            l1_ratio=0.4029280903994684))])",0.35755949934991565,0.00953433083310812,6438,0.34802516851680754

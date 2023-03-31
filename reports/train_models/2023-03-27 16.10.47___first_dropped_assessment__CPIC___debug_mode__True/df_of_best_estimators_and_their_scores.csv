@@ -1,0 +1,7 @@
+,Output,Model type,Best estimator,Best score,SD of best score,Number of positive examples,Score - SD
+0,"PCIAT,PCIAT_Total",svc,"Pipeline(steps=[('simpleimputer', SimpleImputer(strategy='median')),
+                ('standardscaler', StandardScaler()),
+                ('svc', SVC(C=0.1, gamma=0.01, kernel='linear'))])",,,43063,
+1,"PreInt_EduHx,recent_grades",svc,"Pipeline(steps=[('simpleimputer', SimpleImputer(strategy='median')),
+                ('standardscaler', StandardScaler()),
+                ('svc', SVC(C=0.1, gamma=0.01, kernel='linear'))])",,,3304,
