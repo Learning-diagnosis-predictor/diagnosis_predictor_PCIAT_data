@@ -1,0 +1,6 @@
+,Value
+n_rows_full_ds,1440
+n_rows_train_ds,921
+n_rows_val_ds,231
+n_rows_test_ds,288
+n_input_cols,853
